@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "dev-ui": "vite",
-    "do-build": "vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "postinstall": "vite build || true",
     "prepublish": "vite build"
