@@ -17,9 +17,6 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/index.ts'),
       fileName: 'canyon-ui-old',
       name: 'CanyonUiOld',
-    },
-    rollupOptions: {
-      external: ['react', 'react-dom', 'antd'],
-    },
+    }
   },
 });
